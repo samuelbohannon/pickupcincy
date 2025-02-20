@@ -1,0 +1,7 @@
+deployment:
+  branches:
+    - master # Replace with 'main' if that's your branch name
+  tasks:
+    - execute:
+        script: /home/gerbv8ulfnue/scripts/deploy_pickupcincy.sh
+        on_success: true
