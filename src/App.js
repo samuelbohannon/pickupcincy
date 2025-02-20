@@ -14,7 +14,7 @@ function App() {
         <Navbar></Navbar>
         <main>
           <div id="main-div">
-            <h1>Welcome!</h1>
+            <h1>Welcome!!</h1>
             <hr></hr>
             <Routes>
               <Route path="/" element={<Home />} />  {/* Default page */}
